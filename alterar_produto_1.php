@@ -1,28 +1,35 @@
 <?php require_once('cima.php')?>
 <?php require_once('banco_produtos.php')?>
-<?php require_once("logica_usuario.php"); verificaUsuario();?>
+<?php require_once("logica_usuario.php"); verificaUsuario();
+require_once("class/produto.php");
+require_once("class/categoria.php");?>
 		<?php
-		$id = $_POST["id"];
-		$preco = $_POST["preco"];
-		$nome = $_POST['nome'];
-		$descricao = $_POST['descricao'];
-        $categoria_id = $_POST['categoria_id'];
+        $produto = new Produto();
+        $categoria = new Categoria();
+        $categoria->id = $_POST['categoria_id'];
+		
+		$produto->id = $_POST["id"];
+		$produto->setPreco($_POST["preco"]);
+		$produto->nome = $_POST['nome'];
+		$produto->descricao = $_POST['descricao'];
+        $produto->categoria = $_POST['categoria_id'];
 		if (array_key_exists('usado',$_POST)) {
-            $usado = "true";
+            $produto->usado = "true";
         } else{
-		    $usado = "false";
+		    $produto->usado = "false";
         };
-        if($nome != '' && $preco != '') {
-            if (alteraProduto($conexao, $nome, $preco, $descricao, $categoria_id, $usado, $id)) {
-                $_SESSION["success"] = "Produto $nome alterado";
+
+        if($produto->nome != '' && $produto->getPreco() != '') {
+            if (alteraProduto($conexao, $produto)) {
+                $_SESSION["success"] = "Produto $produto->nome alterado";
                 header("Location: lista_produto.php");
             } else {
-                $_SESSION["danger"] = "Produto $nome não foi alterado";
+                $_SESSION["danger"] = "Produto $produto->nome não foi alterado";
                 header("Location: alterar_produto.php");
             }
         }
         else {
-            $_SESSION["danger"] = "Produto $nome não foi alterado";
+            $_SESSION["danger"] = "Produto $produto->nome não foi alterado";
             header("Location: lista_produto.php");
         }
 		?>
