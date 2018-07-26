@@ -1,7 +1,6 @@
-<?php require_once("logica_usuario.php"); verificaUsuario();?>
-<?php require_once("cima.php");?>
-<?php
-require_once('mostra_alerta.php');
+<?php require_once("../logica_usuario.php"); verificaUsuario();
+require_once("../cima_geral.php");
+require_once('../mostra_alerta.php');
 alert();
 ?>
     <h1>Formulário de categoria</h1>

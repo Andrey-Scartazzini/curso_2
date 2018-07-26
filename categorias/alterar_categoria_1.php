@@ -1,6 +1,6 @@
-<?php require_once('cima.php')?>
-<?php require_once('banco_categoria.php')?>
-<?php require_once("logica_usuario.php"); verificaUsuario();?>
+<?php require_once('../cima_geral.php');
+require_once('../categorias/banco_categoria.php');
+require_once("../logica_usuario.php"); verificaUsuario();?>
 		<?php
 		$id = $_POST["id"];
 		$nome = $_POST['nome'];

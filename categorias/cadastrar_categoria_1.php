@@ -1,12 +1,12 @@
-<?php include("logica_usuario.php"); verificaUsuario();?>
-<?php include('cima.php')?>
+<?php include("../logica_usuario.php"); verificaUsuario();?>
+<?php include('../cima_geral.php')?>
 <?php include('banco_categoria.php')?>
 		<?php
 		$nome = $_POST['nome'];
         if($nome != '') {
             if (insereCategoria($conexao, $nome)) {
                 $_SESSION["success"] = "Categoria $nome foi cadastrado";
-                header("Location: index.php");
+                header("Location: ../index.php");
             }
             else {
                 $_SESSION["danger"] = "Categoria $nome não foi cadastrado";

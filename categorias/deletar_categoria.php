@@ -1,6 +1,6 @@
-<?php require_once("logica_usuario.php"); verificaUsuario();?>
+<?php require_once("../logica_usuario.php"); verificaUsuario();?>
 <?php
-	require_once('cima.php');
+	require_once('../cima_geral.php');
 	require_once('banco_categoria.php');
 $id = $_POST['id'];
 removeCategoria($conexao, $id);

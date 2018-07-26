@@ -1,5 +1,5 @@
-<?php require_once("logica_usuario.php"); verificaUsuario();?>
-<?php require_once("cima.php");?>
+<?php require_once("../logica_usuario.php"); verificaUsuario();?>
+<?php require_once("../cima_geral.php");?>
 <?php require_once("banco_categoria.php");?>
 <?php
     $id = $_POST["id"];

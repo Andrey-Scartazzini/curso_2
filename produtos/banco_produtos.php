@@ -1,6 +1,8 @@
-<?php include('conecta.php');
-require_once("class/produto.php");
-require_once("class/categoria.php");?>
+<?php
+    include('../conecta.php');
+    require_once("../class/produto.php");
+    require_once("../class/categoria.php");
+?>
 <?php
 		function listaProduto($conexao) {
 			$produtos = array();

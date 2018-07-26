@@ -1,10 +1,10 @@
-<?php require_once("cima.php")?>
-<?php require_once("banco_categoria.php"); $categorias = listaCategorias($conexao);?>
-<?php require_once("banco_produtos.php")?>
-<?php require_once("logica_usuario.php"); verificaUsuario();?>
-<?
-require_once('mostra_alerta.php');
-alert();
+<?php
+    require_once("../cima_geral.php");
+    require_once("../categorias/banco_categoria.php"); $categorias = listaCategorias($conexao);
+    require_once("banco_produtos.php");
+    require_once("../logica_usuario.php"); verificaUsuario();
+    require_once('../mostra_alerta.php');
+    alert();
 ?>
 <?php
     $id = $_POST["id"];

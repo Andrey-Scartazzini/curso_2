@@ -1,8 +1,9 @@
-<?php require_once('cima.php')?>
-<?php require_once('banco_produtos.php')?>
-<?php require_once("logica_usuario.php"); verificaUsuario();
-require_once("class/produto.php");
-require_once("class/categoria.php");?>
+<?php require_once('../cima_geral.php');
+    require_once('banco_produtos.php');
+    require_once("../logica_usuario.php"); verificaUsuario();
+    require_once("../class/produto.php");
+    require_once("../class/categoria.php");
+?>
 		<?php
         $produto = new Produto();
         $categoria = new Categoria();

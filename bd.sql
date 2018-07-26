@@ -90,7 +90,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'andreyscartazzini@gmail.com','202cb962ac59075b964b07152d234b70'),(2,'outro@email.com','202cb962ac59075b964b07152d234b70');
+INSERT INTO `usuario` VALUES (1,'andreyscartazzini@gmail.com','202cb962ac59075b964b07152d234b70');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

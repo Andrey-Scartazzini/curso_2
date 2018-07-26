@@ -29,16 +29,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banco_produtos.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="banco_produtos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/banco_produtos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="32" column="130" selection-start-line="32" selection-start-column="130" selection-end-line="32" selection-end-column="130" />
+            <state relative-caret-position="530">
+              <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alterar_produto_1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alterar_produto_1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alterar_produto_1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/class/produto.php" />
         <option value="$PROJECT_DIR$/lista_produto.php" />
         <option value="$PROJECT_DIR$/cadastrar_produto_1.php" />
-        <option value="$PROJECT_DIR$/banco_produtos.php" />
         <option value="$PROJECT_DIR$/alterar_produto_1.php" />
+        <option value="$PROJECT_DIR$/banco_produtos.php" />
       </list>
     </option>
   </component>
@@ -182,12 +182,12 @@
       <workItem from="1531771681597" duration="70000" />
       <workItem from="1531824120738" duration="2605000" />
       <workItem from="1531936179883" duration="3496000" />
-      <workItem from="1531996660850" duration="10855000" />
+      <workItem from="1531996660850" duration="11571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28591000" />
+    <option name="totallyTimeSpent" value="29307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -364,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banco_produtos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="32" column="130" selection-start-line="32" selection-start-column="130" selection-end-line="32" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/produto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -382,6 +375,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banco_produtos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
         </state>
       </provider>
     </entry>

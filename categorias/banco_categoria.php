@@ -1,4 +1,4 @@
-<?php include('conecta.php')?>
+<?php include('../conecta.php')?>
 <?php
 function listaCategorias($conexao){
     $categorias = array();

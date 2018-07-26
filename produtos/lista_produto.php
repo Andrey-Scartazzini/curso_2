@@ -1,8 +1,8 @@
 <?php 
-	require_once('cima.php');
+	require_once('../cima_geral.php');
+	require_once('../logica_usuario.php');
 	require_once('banco_produtos.php');
-	require_once('logica_usuario.php');
-	require_once('mostra_alerta.php');
+	require_once('../mostra_alerta.php');
 	alert();
 ?>
         <table class="table table-striped table-bordered">

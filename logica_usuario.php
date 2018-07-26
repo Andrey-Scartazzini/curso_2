@@ -6,7 +6,7 @@ function usuarioestalogado(){
 function verificaUsuario(){
     if(!usuarioestalogado()){
     $_SESSION["danger"] = "Você não esta logado";
-        header("Location: index.php");
+        header("Location: ../index.php");
         die();
     };
 };

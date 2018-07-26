@@ -1,12 +1,10 @@
-<?php require_once("logica_usuario.php"); verificaUsuario();?>
-<?php require_once("cima.php");
-require_once("banco_categoria.php");
-
-	$categorias = listaCategorias($conexao);
-	?>
 <?php
-	require_once('mostra_alerta.php');
-    alert();
+    require_once("../logica_usuario.php"); verificaUsuario();
+    require_once("../cima_geral.php");
+    require_once("../categorias/banco_categoria.php");
+    require_once('../mostra_alerta.php');
+	$categorias = listaCategorias($conexao);
+	alert();
 ?>
 <?php
     $produto = array("nome" => "", "descricao" => "", "preco" => "", "categoria_id" => "1");

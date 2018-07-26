@@ -1,5 +1,5 @@
 <?php require_once('cima.php')?>
-<?php require_once('logica_usuario.php')?>
+<?php require_once('logica_usuario.php') ?>
 <?php require_once('mostra_alerta.php')?>
 <h1>Seja bem-vindo.</h1>
 <?php

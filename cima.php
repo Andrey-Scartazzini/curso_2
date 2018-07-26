@@ -1,6 +1,6 @@
-<?php error_reporting(E_ALL ^ E_NOTICE) ?>
-<?php include('mostra_alerta.php')?>
-<?php mostraalerta("success"); mostraalerta("danger");?>
+<?php error_reporting(E_ALL ^ E_NOTICE);
+include('mostra_alerta.php');
+mostraalerta("success"); mostraalerta("danger");?>
 <html>
 <head>
 	<meta charset='utf-8'>
@@ -16,10 +16,10 @@
 			</div>
 			<div>
 				<ul class="nav navbar-nav">
-					<li><a href="cadastrar_produto.php">Inserir produtos</a></li>
-					<li><a href="cadastrar_categoria.php">Inserir Categoria</a></li>
-					<li><a href="lista_produto.php">Lista dos produtos</a></li>
-					<li><a href="lista_categoria.php">Lista das categorias</a></li>
+					<li><a href="produtos/cadastrar_produto.php">Inserir produtos</a></li>
+					<li><a href="categorias/cadastrar_categoria.php">Inserir Categoria</a></li>
+					<li><a href="produtos/lista_produto.php">Lista dos produtos</a></li>
+					<li><a href="categorias/lista_categoria.php">Lista das categorias</a></li>
 					<li><a href="contato.php">Contato</a></li>
 				</ul>
 			</div>
